@@ -228,11 +228,7 @@ export default function CalculadoraGastos() {
   const [idioma, setIdioma] = useState('es');
   const [temaOscuro, setTemaOscuro] = useState(false);
   const [ingresos, setIngresos] = useState([]);
-  const [categorias, setCategorias] = useState([
-    { id: 1, nombre: 'Habitación', monto: '', porcentaje: '', tipoValor: 'monto' },
-    { id: 2, nombre: 'Comida', monto: '', porcentaje: '', tipoValor: 'monto' },
-    { id: 3, nombre: 'Transporte', monto: '', porcentaje: '', tipoValor: 'monto' }
-  ]);
+  const [categorias, setCategorias] = useState([]);
   const [editandoCategoria, setEditandoCategoria] = useState(null);
   const [metas, setMetas] = useState([]);
   const [editandoMeta, setEditandoMeta] = useState(null);
